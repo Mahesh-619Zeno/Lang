@@ -1,0 +1,12 @@
+{
+"user": "john",
+"age": "twenty-five",
+"details": {
+"email": "john@example.com",
+"address": "123 street",
+"phones": [
+"1234567890",
+"not-a-phone-number"
+]
+}
+}
