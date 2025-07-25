@@ -5,8 +5,8 @@ TODO_FILE = "todos.json"
 
 def load_todos():
     if os.path.exists(TODO_FILE):
-        with open(TODO_FILE, 'r') as f:
-            return json.load(f)
+        with open(TODO_FILE, 'r') as todo_file:
+            return json.load(todo_file)
     return []
 
 def save_todos(todos):
