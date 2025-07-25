@@ -7,3 +7,4 @@ print("Sum is $sum");
 var names=["Alice","Bob","Charlie"];
 for(var n in names) print(n);
 }
+nefn$%//

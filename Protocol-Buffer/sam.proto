@@ -7,3 +7,4 @@ message Person {
  bool is_active = 3;
  repeated string hobbies = 4;
 }
+//

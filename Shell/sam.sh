@@ -10,3 +10,4 @@ done
 else
 echo "Directory not found"
 fi
+if
