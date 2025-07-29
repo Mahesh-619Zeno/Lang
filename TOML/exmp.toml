@@ -1,0 +1,23 @@
+[AppSettings]
+version="1.0.0"
+debug=true
+MaxConnections =100
+
+[Database]
+host="127.0.0.1"
+Port=5432
+user="admin"
+password="admin123"
+timeout= 30
+
+[Logging]
+level= "INFO"
+output= "./logs/app.log"
+rotate=true
+
+[feature-flags]
+new_ui=true
+enable-cache=false
+
+[invalid section name ]
+enabled=true
