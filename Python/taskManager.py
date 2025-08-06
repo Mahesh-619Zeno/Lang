@@ -1,7 +1,3 @@
-#!/usr/bin/env python3
-"""
-Task Manager CLI with persistence, search, tagging, and history logs.
-"""
 
 import os
 import json
