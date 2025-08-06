@@ -9,6 +9,12 @@ def load_todos():
             return json.load(todo_file)
     return []
 
+def load_todos():
+    if os.path.exists(TODO_FILE):
+        with open(TODO_FILE, 'r') as todo_file:
+            return json.load(todo_file)
+    return []
+
 def save_todos(todos):
     with open(TODO_FILE, 'w') as f:
         json.dump(todos, f, indent=4)
