@@ -9,7 +9,6 @@ import datetime
 
 DATA_FILE = "tasks.json"
 LOG_FILE = "task_manager.log"
-
 class Task:
     def __init__(self, id, title, completed=False, tags=None, created=None, updated=None):
         self.id = id
