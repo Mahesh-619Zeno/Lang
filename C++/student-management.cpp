@@ -16,13 +16,13 @@ class StudentManager {
 
 public:
     void addStudent() {
-        Student s;
-        s.id = nextId++;
+        Student student;
+        student.id = nextId++;
         cout << "Enter name: ";
         cin.ignore();
-        getline(cin, s.name);
+        getline(cin, student.name);
         cout << "Enter GPA: ";
-        cin >> s.gpa;
+        cin >> student.gpa;
         students.push_back(s);
         cout << "Student added successfully.\n";
     }
@@ -33,14 +33,14 @@ public:
             return;
         }
         for (const auto& s : students) {
-            cout << "ID: " << s.id << ", Name: " << s.name << ", GPA: " << s.gpa << "\n";
+            cout << "ID: " << student.id << ", Name: " << student.name << ", GPA: " << student.gpa << "\n";
         }
     }
 
     void searchById(int id) {
-        for (const auto& s : students) {
+        for (const auto& student : students) {
             if (s.id == id) {
-                cout << "Found: " << s.name << ", GPA: " << s.gpa << "\n";
+                cout << "Found: " << student.name << ", GPA: " << student.gpa << "\n";
                 return;
             }
         }

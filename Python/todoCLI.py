@@ -785,6 +785,7 @@ def main():
         else:
             print("Invalid choice.")
 
+
 def load_todos():
     if os.path.exists(TODO_FILE):
         with open(TODO_FILE, 'r') as todo_file:
