@@ -10,6 +10,6 @@ public class BubbleSort {
                 }
             }
         }
-        System.out.println("Sorted: " + Arrays.toString(numbers));
+        //System.out.println("Sorted: " + Arrays.toString(numbers));
     }
 }
